@@ -360,6 +360,7 @@ h3 {
 }
 
 .is-sticky {
+  background-color: white;
   position: fixed;
   top: 0;
   left: 0;
@@ -375,6 +376,7 @@ h3 {
   width: 100% !important;
   -webkit-box-shadow: 0 0 30px -10px rgba(0, 0, 0, 0.15);
   box-shadow: 0 0 30px -10px rgba(0, 0, 0, 0.15);
+  background-color: white;
 }
 
 /* Navbar CSS End */
@@ -3992,6 +3994,127 @@ h3 {
     transform: scale(1);
   }
 }
+
+
+
+
+
+
+.service_section_container {
+  background-color: rgb(5, 34, 34);
+  margin-top: 80px;
+
+
+}
+
+.service_section_container .service_heading h2 {
+  text-align: center;
+  color: white !important;
+  padding: 40px;
+  font-size: 30px;
+  font-family: sans-serif;
+  z-index: 1;
+}
+
+.service_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(5, 34, 34);
+  /* background-color: white; */
+
+  flex-wrap: wrap;
+  width: 100%;
+  position: relative;
+}
+
+.mycard {
+  position: relative;
+  max-width: 300px;
+  height: 200px;
+  background: #075394;
+  margin: 30px 10px;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0px 10px white;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+  height: 250px;
+
+}
+
+.mycard:hover {
+  height: 250px;
+}
+
+.card_img {
+  width: 260px;
+  height: 200px;
+  position: relative;
+  top: -60px;
+  left: 0;
+  box-shadow: 0 0px 10px black;
+  z-index: 1;
+
+}
+
+.card_img img {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+
+}
+
+.card_content {
+  position: relative;
+  margin-top: -140px;
+  padding: 10px 15px;
+  text-align: center;
+
+  color: black;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.4s ease-in-out;
+  color: white;
+}
+
+.card_content p {
+  color: white;
+}
+
+.mycard:hover .card_content {
+  visibility: visible;
+  opacity: 1;
+  margin-top: -50px;
+
+}
+
+.card_content {
+  visibility: visible;
+  opacity: 1;
+  margin-top: -50px;
+
+}
+
+@media screen and (max-width:1024px) {
+  .mycard {
+
+    height: 250px;
+
+  }
+
+  .card_content {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -50px;
+  }
+
+
+
+}
+
 
 /* Animation CSS End */
 /*# sourceMappingURL=style.css.map */

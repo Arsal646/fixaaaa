@@ -1568,6 +1568,10 @@
     margin: 0 auto;
   }
 
+  .about-section .about-text {
+    padding: 25px;
+  }
+
 }
 
 .header-lower-style1 .inner-content {
@@ -1693,7 +1697,6 @@ li {
 }
 
 .nav_color {
-  background-color: white;
   padding: 0 20px;
 }
 
