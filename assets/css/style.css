@@ -548,7 +548,7 @@ h3 {
 /* Banner CSS End */
 /* Features CSS Start */
 .features-section {
-  margin-top: -100px;
+  margin-top: 50px;
   z-index: 1;
   position: relative;
 }
