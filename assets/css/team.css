@@ -1,6 +1,6 @@
 .team_container {
     max-width: 1000px;
-    margin: 100px auto;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -65,4 +65,11 @@
     z-index: 9999;
     text-align: center;
     padding: 1px;
+}
+
+@media(max-width:700px) {
+    .team_card {
+
+        margin: 60px 0;
+    }
 }

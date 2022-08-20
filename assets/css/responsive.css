@@ -360,9 +360,7 @@
   }
 
   /* Company CSS */
-  .company-section {
-    margin-top: 50px;
-  }
+
 
   /* Blog CSS */
   .blog-section .blog-card .blog-img img {
@@ -967,10 +965,6 @@
     left: 30px;
   }
 
-  /* Compnay CSS */
-  .company-section {
-    margin-top: 70px;
-  }
 
   /* Newsletter CSS */
   .newsletter-section {
@@ -1308,10 +1302,7 @@
     right: -15px;
   }
 
-  /* Company CSS */
-  .company-section {
-    margin-top: 100px;
-  }
+
 
   /* Newsletter CSS */
   .newsletter-section .newsletter-area .newsletter-form .default-btn {
