@@ -4032,8 +4032,6 @@ h3 {
   position: relative;
   max-width: 300px;
   height: 200px;
-  background: #075394;
-  background: #3C0C70;
   margin: 30px 10px;
   padding: 20px 15px;
   display: flex;
@@ -4041,27 +4039,37 @@ h3 {
   box-shadow: 0 0px 10px white;
   transition: 0.4s ease-in-out;
   cursor: pointer;
-  height: 200px;
-  border-radius: 5px;
-
-}
-
-
-.service_btn {
-  transition: 0.9s ease-in-out;
-  position: relative;
-  top: -100px;
-  opacity: 0;
-}
-
-.mycard:hover {
   height: 300px;
+  border-radius: 5px;
+  color: black;
+  background-color: #000;
+  background: #ffffff;
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 5px 25px 0 rgb(0 0 0 / 10%);
+  box-shadow: 3px 5px 25px 0 rgb(0 0 0 / 10%);
 }
+
+
+
+
+.service_btn .default-btn {
+  border: 1px solid red;
+
+}
+
+/* .mycard:hover {
+  height: 300px;
+} */
 
 .mycard:hover .service_btn {
   display: block;
   top: 0;
   opacity: 1;
+}
+
+.mycard:hover {
+  -webkit-box-shadow: 3px 5px 25px 0 rgba(249, 63, 91, 0.271);
+  box-shadow: 3px 5px 25px 0 rgba(254, 1, 1, 0.264);
 }
 
 .card_img {
@@ -4100,13 +4108,13 @@ h3 {
 }
 
 .card_content p {
-  color: white;
+  color: #000 !important;
   height: 75px;
 }
 
 @media(max-width:800px) {
   .card_content p {
-    color: white;
+    color: #000 !important;
     height: auto;
   }
 }
